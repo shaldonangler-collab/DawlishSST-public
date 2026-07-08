@@ -1,0 +1,13 @@
+{
+  "latest_observation": "2026-07-08T12:00:00+01:00",
+  "current_sst": 20.1,
+  "report_date": "2026-07-07",
+  "daily_mean": 17.79,
+  "climatology_mean": 16.37,
+  "anomaly": 1.42,
+  "zscore": 1.13,
+  "historical_min": 14.16,
+  "historical_max": 19.04,
+  "percentile": "10th\u201390th",
+  "status": "WARM"
+}
