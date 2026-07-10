@@ -1,25 +1,25 @@
 {
-  "latest_sample_date": "2026-06-24",
-  "latest_sample_date_text": "24 June 2026",
+  "latest_sample_date": "2026-07-01",
+  "latest_sample_date_text": "1 July 2026",
   "source": "Environment Agency",
   "results": [
     {
       "location": "Teignmouth Town",
-      "ecoli": "<10",
-      "intestinal_enterococci": "<10",
-      "sample_date": "2026-06-24"
+      "ecoli": "No data",
+      "intestinal_enterococci": "No data",
+      "sample_date": null
     },
     {
       "location": "Teignmouth Back Beach",
-      "ecoli": "<91",
-      "intestinal_enterococci": "91",
-      "sample_date": "2026-06-24"
+      "ecoli": "<10",
+      "intestinal_enterococci": "36",
+      "sample_date": "2026-07-01"
     },
     {
       "location": "Shaldon",
-      "ecoli": "<10",
-      "intestinal_enterococci": "<10",
-      "sample_date": "2026-06-24"
+      "ecoli": "No data",
+      "intestinal_enterococci": "No data",
+      "sample_date": null
     }
   ]
 }
