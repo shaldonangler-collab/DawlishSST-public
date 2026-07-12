@@ -5,8 +5,8 @@
   "results": [
     {
       "location": "Teignmouth Town",
-      "ecoli": "No data",
-      "intestinal_enterococci": "No data",
+      "ecoli": "Err",
+      "intestinal_enterococci": "Err",
       "sample_date": null
     },
     {
@@ -17,8 +17,8 @@
     },
     {
       "location": "Shaldon",
-      "ecoli": "No data",
-      "intestinal_enterococci": "No data",
+      "ecoli": "Err",
+      "intestinal_enterococci": "Err",
       "sample_date": null
     }
   ]
