@@ -5,9 +5,9 @@
   "results": [
     {
       "location": "Teignmouth Town",
-      "ecoli": "Err",
-      "intestinal_enterococci": "Err",
-      "sample_date": null
+      "ecoli": "<10",
+      "intestinal_enterococci": "<10",
+      "sample_date": "2026-06-24"
     },
     {
       "location": "Teignmouth Back Beach",
@@ -17,9 +17,9 @@
     },
     {
       "location": "Shaldon",
-      "ecoli": "Err",
-      "intestinal_enterococci": "Err",
-      "sample_date": null
+      "ecoli": "<10",
+      "intestinal_enterococci": "<10",
+      "sample_date": "2026-06-24"
     }
   ]
 }
