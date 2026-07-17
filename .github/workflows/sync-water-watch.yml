@@ -1,0 +1,32 @@
+name: Sync Water Watch results
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:15–11:15 UTC each morning during August.
+    - cron: "15 7-11 * 8 *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch latest Bactiquick records
+        run: node scripts/sync-water-watch.mjs
+      - name: Commit updated results
+        run: |
+          if git diff --quiet -- latest_water_watch.json; then
+            echo "No results change"
+            exit 0
+          fi
+          git config user.name "water-watch-bot"
+          git config user.email "water-watch-bot@users.noreply.github.com"
+          git add latest_water_watch.json
+          git commit -m "Update Water Watch results"
+          git push
