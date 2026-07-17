@@ -15,22 +15,22 @@
           "intestinal_enterococci": "<10"
         },
         {
+          "sample_date": "2026-07-06",
+          "ecoli": "<10",
+          "intestinal_enterococci": "<10"
+        },
+        {
+          "sample_date": "2026-07-01",
+          "ecoli": "=36",
+          "intestinal_enterococci": "<10"
+        },
+        {
           "sample_date": "2026-06-24",
           "ecoli": "<10",
           "intestinal_enterococci": "<10"
         },
         {
           "sample_date": "2026-06-18",
-          "ecoli": "<10",
-          "intestinal_enterococci": "<10"
-        },
-        {
-          "sample_date": "2026-06-10",
-          "ecoli": "<10",
-          "intestinal_enterococci": "27"
-        },
-        {
-          "sample_date": "2026-06-07",
           "ecoli": "<10",
           "intestinal_enterococci": "<10"
         }
@@ -81,6 +81,16 @@
           "intestinal_enterococci": "<10"
         },
         {
+          "sample_date": "2026-07-06",
+          "ecoli": "<10",
+          "intestinal_enterococci": "<10"
+        },
+        {
+          "sample_date": "2026-07-01",
+          "ecoli": "<10",
+          "intestinal_enterococci": "<10"
+        },
+        {
           "sample_date": "2026-06-24",
           "ecoli": "<10",
           "intestinal_enterococci": "<10"
@@ -88,17 +98,7 @@
         {
           "sample_date": "2026-06-18",
           "ecoli": "<10",
-          "intestinal_enterococci": "55"
-        },
-        {
-          "sample_date": "2026-06-10",
-          "ecoli": "<10",
-          "intestinal_enterococci": "<10"
-        },
-        {
-          "sample_date": "2026-06-07",
-          "ecoli": "<10",
-          "intestinal_enterococci": "<10"
+          "intestinal_enterococci": "=55"
         }
       ]
     }
