@@ -1,14 +1,19 @@
 {
-  "latest_sample_date": "2026-07-01",
-  "latest_sample_date_text": "1 July 2026",
+  "latest_sample_date": "2026-07-11",
+  "latest_sample_date_text": "11 July 2026",
   "source": "Environment Agency",
   "results": [
     {
       "location": "Teignmouth Town",
-      "ecoli": "<10",
+      "ecoli": "=73",
       "intestinal_enterococci": "<10",
-      "sample_date": "2026-06-24",
+      "sample_date": "2026-07-11",
       "history": [
+        {
+          "sample_date": "2026-07-11",
+          "ecoli": "=73",
+          "intestinal_enterococci": "<10"
+        },
         {
           "sample_date": "2026-06-24",
           "ecoli": "<10",
@@ -28,11 +33,6 @@
           "sample_date": "2026-06-07",
           "ecoli": "<10",
           "intestinal_enterococci": "<10"
-        },
-        {
-          "sample_date": "2026-06-05",
-          "ecoli": "<10",
-          "intestinal_enterococci": "27"
         }
       ]
     },
@@ -73,8 +73,13 @@
       "location": "Shaldon",
       "ecoli": "<10",
       "intestinal_enterococci": "<10",
-      "sample_date": "2026-06-24",
+      "sample_date": "2026-07-11",
       "history": [
+        {
+          "sample_date": "2026-07-11",
+          "ecoli": "<10",
+          "intestinal_enterococci": "<10"
+        },
         {
           "sample_date": "2026-06-24",
           "ecoli": "<10",
@@ -92,11 +97,6 @@
         },
         {
           "sample_date": "2026-06-07",
-          "ecoli": "<10",
-          "intestinal_enterococci": "<10"
-        },
-        {
-          "sample_date": "2026-06-05",
           "ecoli": "<10",
           "intestinal_enterococci": "<10"
         }
