@@ -1,0 +1,66 @@
+{
+  "date": "2025-12-08",
+  "updated": null,
+  "sampled": null,
+  "recorded": null,
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "source": "River Hub public site",
+  "sites": [
+    {
+      "id": "teignmouth-town-front-beach",
+      "name": "Teignmouth Town – Front Beach",
+      "category": "pending",
+      "eru": null,
+      "sampleDate": null,
+      "collector": null,
+      "tempC": null,
+      "salinityPpt": null,
+      "rainfall24hMm": null,
+      "tide": null,
+      "riverHubSiteId": null,
+      "sourceUrl": null
+    },
+    {
+      "id": "teignmouth-back-beach",
+      "name": "Teignmouth – Back Beach",
+      "category": "pending",
+      "eru": null,
+      "sampleDate": null,
+      "collector": null,
+      "tempC": null,
+      "salinityPpt": null,
+      "rainfall24hMm": null,
+      "tide": null,
+      "riverHubSiteId": "d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4",
+      "sourceUrl": null
+    },
+    {
+      "id": "shaldon-beach",
+      "name": "Shaldon – Beach",
+      "category": "low",
+      "eru": 31,
+      "sampleDate": "2025-12-08",
+      "collector": "Friends of the River Teign",
+      "tempC": null,
+      "salinityPpt": null,
+      "rainfall24hMm": null,
+      "tide": null,
+      "riverHubSiteId": "acd85374-df66-410d-acfe-c0bf8ae793d6",
+      "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/acd85374-df66-410d-acfe-c0bf8ae793d6"
+    },
+    {
+      "id": "coombe-cellars-foreshore",
+      "name": "Coombe Cellars – Foreshore",
+      "category": "pending",
+      "eru": null,
+      "sampleDate": null,
+      "collector": null,
+      "tempC": null,
+      "salinityPpt": null,
+      "rainfall24hMm": null,
+      "tide": null,
+      "riverHubSiteId": null,
+      "sourceUrl": null
+    }
+  ]
+}
