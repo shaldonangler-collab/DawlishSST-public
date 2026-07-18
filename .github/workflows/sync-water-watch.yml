@@ -25,8 +25,23 @@ jobs:
             echo "No results change"
             exit 0
           fi
+
           git config user.name "water-watch-bot"
           git config user.email "water-watch-bot@users.noreply.github.com"
+
           git add latest_water_watch.json
           git commit -m "Update Water Watch results"
-          git push
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+
+            if git push origin main; then
+              exit 0
+            fi
+
+            echo "Push conflicted; retrying..."
+            sleep 5
+          done
+
+          echo "Unable to push after three attempts"
+          exit 1
