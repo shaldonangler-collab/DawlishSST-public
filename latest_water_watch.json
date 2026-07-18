@@ -1,9 +1,9 @@
 {
-  "date": "2025-12-08",
+  "date": "2026-07-18",
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedAt": "2026-07-18T10:24:07.916Z",
   "source": "River Hub public site",
   "sites": [
     {
@@ -23,16 +23,16 @@
     {
       "id": "teignmouth-back-beach",
       "name": "Teignmouth – Back Beach",
-      "category": "pending",
-      "eru": null,
-      "sampleDate": null,
-      "collector": null,
+      "category": "low",
+      "eru": 31,
+      "sampleDate": "2026-07-18",
+      "collector": "Friends of the River Teign",
       "tempC": null,
       "salinityPpt": null,
       "rainfall24hMm": null,
       "tide": null,
       "riverHubSiteId": "d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4",
-      "sourceUrl": null
+      "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4"
     },
     {
       "id": "shaldon-beach",
