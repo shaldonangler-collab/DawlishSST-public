@@ -38,10 +38,15 @@
     },
     {
       "location": "Teignmouth Back Beach",
-      "ecoli": "<10",
-      "intestinal_enterococci": "18",
-      "sample_date": "2026-07-11",
+      "ecoli": "18",
+      "intestinal_enterococci": "54",
+      "sample_date": "2026-07-15",
       "history": [
+        {
+          "sample_date": "2026-07-15",
+          "ecoli": "18",
+          "intestinal_enterococci": "54"
+        },
         {
           "sample_date": "2026-07-11",
           "ecoli": "<10",
@@ -61,11 +66,6 @@
           "sample_date": "2026-06-24",
           "ecoli": "<91",
           "intestinal_enterococci": "91"
-        },
-        {
-          "sample_date": "2026-06-18",
-          "ecoli": "<10",
-          "intestinal_enterococci": "54"
         }
       ]
     },
