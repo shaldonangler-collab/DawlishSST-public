@@ -7,7 +7,7 @@
     {
       "localId": "teignmouth-town-front-beach",
       "name": "Teignmouth Town – Front Beach",
-      "riverHubSiteId": null
+      "riverHubSiteId": "675e8aa9-2f41-4f97-a512-a3062d6b58d2"
     },
     {
       "localId": "teignmouth-back-beach",
@@ -22,7 +22,7 @@
     {
       "localId": "coombe-cellars-foreshore",
       "name": "Coombe Cellars – Foreshore",
-      "riverHubSiteId": null
+      "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de"
     }
   ]
 }
