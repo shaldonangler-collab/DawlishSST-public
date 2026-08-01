@@ -1,31 +1,31 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-08-01",
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-08-01T07:44:58.447Z",
+  "generatedAt": "2026-08-01T08:18:11.294Z",
   "source": "River Hub public site",
   "sites": [
     {
       "id": "teignmouth-town-front-beach",
       "name": "Teignmouth Town – Front Beach",
-      "category": "pending",
-      "eru": null,
-      "sampleDate": null,
-      "collector": null,
+      "category": "medium",
+      "eru": 81,
+      "sampleDate": "2026-08-01",
+      "collector": "Friends of the River Teign",
       "tempC": null,
       "salinityPpt": null,
       "rainfall24hMm": null,
       "tide": null,
       "riverHubSiteId": "675e8aa9-2f41-4f97-a512-a3062d6b58d2",
-      "sourceUrl": null
+      "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/675e8aa9-2f41-4f97-a512-a3062d6b58d2"
     },
     {
       "id": "teignmouth-back-beach",
       "name": "Teignmouth – Back Beach",
       "category": "low",
-      "eru": 31,
-      "sampleDate": "2026-07-18",
+      "eru": 17,
+      "sampleDate": "2026-08-01",
       "collector": "Friends of the River Teign",
       "tempC": null,
       "salinityPpt": null,
@@ -38,8 +38,8 @@
       "id": "shaldon-beach",
       "name": "Shaldon – Beach",
       "category": "low",
-      "eru": 31,
-      "sampleDate": "2025-12-08",
+      "eru": 30,
+      "sampleDate": "2026-08-01",
       "collector": "Friends of the River Teign",
       "tempC": null,
       "salinityPpt": null,
@@ -51,16 +51,16 @@
     {
       "id": "coombe-cellars-foreshore",
       "name": "Coombe Cellars – Foreshore",
-      "category": "pending",
-      "eru": null,
-      "sampleDate": null,
-      "collector": null,
+      "category": "low",
+      "eru": 2,
+      "sampleDate": "2026-08-01",
+      "collector": "Friends of the River Teign",
       "tempC": null,
       "salinityPpt": null,
       "rainfall24hMm": null,
       "tide": null,
       "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de",
-      "sourceUrl": null
+      "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/390d996f-0a61-4d76-bc1a-f23a615ff1de"
     }
   ]
 }
