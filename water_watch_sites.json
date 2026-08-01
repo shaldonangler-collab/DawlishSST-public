@@ -1,27 +1,31 @@
 {
   "thresholds": {
     "mediumFrom": 50,
-    "highFrom": 100
+    "highFrom": 80
   },
   "sites": [
     {
       "localId": "teignmouth-town-front-beach",
       "name": "Teignmouth Town – Front Beach",
+      "sheetName": "Teignmouth Front Beach",
       "riverHubSiteId": "675e8aa9-2f41-4f97-a512-a3062d6b58d2"
     },
     {
       "localId": "teignmouth-back-beach",
       "name": "Teignmouth – Back Beach",
+      "sheetName": "Teignmouth Back Beach",
       "riverHubSiteId": "d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4"
     },
     {
       "localId": "shaldon-beach",
       "name": "Shaldon – Beach",
+      "sheetName": "Shaldon Beach",
       "riverHubSiteId": "acd85374-df66-410d-acfe-c0bf8ae793d6"
     },
     {
       "localId": "coombe-cellars-foreshore",
       "name": "Coombe Cellars – Foreshore",
+      "sheetName": "Coombe Cellars",
       "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de"
     }
   ]
