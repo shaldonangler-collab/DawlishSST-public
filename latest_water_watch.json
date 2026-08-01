@@ -3,7 +3,7 @@
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-07-18T10:24:07.916Z",
+  "generatedAt": "2026-08-01T07:44:58.447Z",
   "source": "River Hub public site",
   "sites": [
     {
@@ -17,7 +17,7 @@
       "salinityPpt": null,
       "rainfall24hMm": null,
       "tide": null,
-      "riverHubSiteId": null,
+      "riverHubSiteId": "675e8aa9-2f41-4f97-a512-a3062d6b58d2",
       "sourceUrl": null
     },
     {
@@ -59,7 +59,7 @@
       "salinityPpt": null,
       "rainfall24hMm": null,
       "tide": null,
-      "riverHubSiteId": null,
+      "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de",
       "sourceUrl": null
     }
   ]
