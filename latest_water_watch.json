@@ -3,8 +3,8 @@
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-08-06T09:00:57.672Z",
-  "source": "River Hub public site; measurements enriched from Google Sheet",
+  "generatedAt": "2026-08-06T09:18:29.101Z",
+  "source": "River Hub public site; measurements and 48-hour rainfall enriched from Google Sheet",
   "sites": [
     {
       "id": "teignmouth-town-front-beach",
@@ -15,7 +15,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 19.2,
       "salinityPpt": 34.5,
-      "rainfall24hMm": null,
+      "rainfall24hMm": 0.4,
       "tide": null,
       "riverHubSiteId": "675e8aa9-2f41-4f97-a512-a3062d6b58d2",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/675e8aa9-2f41-4f97-a512-a3062d6b58d2"
@@ -29,7 +29,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 17.7,
       "salinityPpt": 34.4,
-      "rainfall24hMm": null,
+      "rainfall24hMm": 0.4,
       "tide": null,
       "riverHubSiteId": "d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4"
@@ -43,7 +43,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 18.5,
       "salinityPpt": 35.3,
-      "rainfall24hMm": null,
+      "rainfall24hMm": 0.4,
       "tide": null,
       "riverHubSiteId": "acd85374-df66-410d-acfe-c0bf8ae793d6",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/acd85374-df66-410d-acfe-c0bf8ae793d6"
@@ -57,7 +57,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 18.4,
       "salinityPpt": 28.7,
-      "rainfall24hMm": null,
+      "rainfall24hMm": 0.4,
       "tide": null,
       "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/390d996f-0a61-4d76-bc1a-f23a615ff1de"
