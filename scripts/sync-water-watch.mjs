@@ -85,7 +85,9 @@ function isoDate(value) {
 }
 
 function numberOrNull(value) {
-  const number = Number(String(value ?? "").trim());
+  const text = String(value ?? "").trim();
+  if (!text) return null;
+  const number = Number(text);
   return Number.isFinite(number) ? number : null;
 }
 
@@ -146,8 +148,32 @@ async function fetchSheetMeasurement(site, record) {
   };
 }
 
+async function fetchRainfallByDate() {
+  const url = "https://docs.google.com/spreadsheets/d/" + sheetId +
+    "/gviz/tq?tqx=out:csv&sheet=" + encodeURIComponent("Rainfall");
+  const response = await fetch(url, {
+    headers: { "user-agent": "Friends-of-the-River-Teign-Water-Watch/1.0" }
+  });
+  if (!response.ok) throw new Error("Rainfall sheet returned " + response.status);
+
+  const rows = parseCsv(await response.text());
+  const headers = rows.shift() ?? [];
+  const dateColumn = headers.indexOf("Date");
+  const rainfallColumn = headers.indexOf("48-hour rainfall (mm)");
+  if (dateColumn < 0 || rainfallColumn < 0) {
+    throw new Error("Rainfall sheet is missing Date or 48-hour rainfall (mm)");
+  }
+
+  return new Map(rows.flatMap(row => {
+    const date = isoDate(row[dateColumn]);
+    const rainfall = numberOrNull(row[rainfallColumn]);
+    return date && rainfall != null ? [[date, rainfall]] : [];
+  }));
+}
+
 const config = JSON.parse(await readFile(mappingPath, "utf8"));
 const previous = JSON.parse(await readFile(outputPath, "utf8"));
+const rainfallByDate = await fetchRainfallByDate();
 const sites = [];
 
 for (const mapping of config.sites) {
@@ -162,7 +188,9 @@ for (const mapping of config.sites) {
     collector: record?.collector ?? null,
     tempC: measurement?.tempC ?? null,
     salinityPpt: measurement?.salinityPpt ?? null,
-    rainfall24hMm: null,
+    // Retain the existing JSON key for website compatibility; the value is
+    // the Water Watch rolling 48-hour total for the River Hub sample date.
+    rainfall24hMm: rainfallByDate.get(record?.sampleDate) ?? null,
     tide: null,
     riverHubSiteId: mapping.riverHubSiteId,
     sourceUrl: record?.sourceUrl ?? null
@@ -176,7 +204,7 @@ const data = {
   sampled: null,
   recorded: null,
   generatedAt: previous.generatedAt,
-  source: "River Hub public site; measurements enriched from Google Sheet",
+  source: "River Hub public site; measurements and 48-hour rainfall enriched from Google Sheet",
   sites
 };
 
