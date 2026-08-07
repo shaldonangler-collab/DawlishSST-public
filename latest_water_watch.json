@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-08-06T09:18:29.101Z",
+  "generatedAt": "2026-08-07T08:20:34.781Z",
   "source": "River Hub public site; measurements and 48-hour rainfall enriched from Google Sheet",
   "sites": [
     {
@@ -38,12 +38,12 @@
       "id": "shaldon-beach",
       "name": "Shaldon – Beach",
       "category": "low",
-      "eru": 16,
-      "sampleDate": "2026-08-06",
+      "eru": 11,
+      "sampleDate": "2026-08-07",
       "collector": "Friends of the River Teign",
-      "tempC": 18.5,
-      "salinityPpt": 35.3,
-      "rainfall24hMm": 0.4,
+      "tempC": 18.3,
+      "salinityPpt": 34.2,
+      "rainfall24hMm": 0,
       "tide": null,
       "riverHubSiteId": "acd85374-df66-410d-acfe-c0bf8ae793d6",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/acd85374-df66-410d-acfe-c0bf8ae793d6"
