@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-08-12T11:57:07.195Z",
+  "generatedAt": "2026-08-13T10:21:04.896Z",
   "source": "River Hub public site; measurements and 48-hour rainfall enriched from Google Sheet",
   "sites": [
     {
@@ -51,12 +51,12 @@
     {
       "id": "coombe-cellars-foreshore",
       "name": "Coombe Cellars – Foreshore",
-      "category": "medium",
-      "eru": 55,
-      "sampleDate": "2026-08-12",
+      "category": "low",
+      "eru": 14,
+      "sampleDate": "2026-08-13",
       "collector": "Friends of the River Teign",
-      "tempC": 19.9,
-      "salinityPpt": 31.3,
+      "tempC": 20,
+      "salinityPpt": 34.7,
       "rainfall24hMm": 0,
       "tide": null,
       "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de",
