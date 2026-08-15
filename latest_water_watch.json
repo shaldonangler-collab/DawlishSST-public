@@ -3,7 +3,7 @@
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-08-15T07:43:10.739Z",
+  "generatedAt": "2026-08-15T07:47:04.710Z",
   "source": "River Hub public site; measurements and 48-hour rainfall enriched from Google Sheet",
   "sites": [
     {
@@ -24,8 +24,8 @@
       "id": "teignmouth-back-beach",
       "name": "Teignmouth – Back Beach",
       "category": "low",
-      "eru": 8,
-      "sampleDate": "2026-08-14",
+      "eru": 6,
+      "sampleDate": "2026-08-15",
       "collector": "Friends of the River Teign",
       "tempC": 21.1,
       "salinityPpt": 34,
