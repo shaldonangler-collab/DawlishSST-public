@@ -3,7 +3,7 @@
   "updated": null,
   "sampled": null,
   "recorded": null,
-  "generatedAt": "2026-08-17T07:46:48.682Z",
+  "generatedAt": "2026-08-17T08:59:56.481Z",
   "source": "River Hub public site; measurements and 48-hour rainfall enriched from Google Sheet",
   "sites": [
     {
@@ -15,7 +15,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 21,
       "salinityPpt": 33.8,
-      "rainfall24hMm": 79.7,
+      "rainfall24hMm": 0.1,
       "tide": null,
       "riverHubSiteId": "675e8aa9-2f41-4f97-a512-a3062d6b58d2",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/675e8aa9-2f41-4f97-a512-a3062d6b58d2"
@@ -29,7 +29,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 21.5,
       "salinityPpt": 34.2,
-      "rainfall24hMm": 79.7,
+      "rainfall24hMm": 0.1,
       "tide": null,
       "riverHubSiteId": "d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/d9fb5ea3-f183-41d5-b5cc-55f93f22d3c4"
@@ -43,7 +43,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 20.5,
       "salinityPpt": 34,
-      "rainfall24hMm": 79.7,
+      "rainfall24hMm": 0.1,
       "tide": null,
       "riverHubSiteId": "acd85374-df66-410d-acfe-c0bf8ae793d6",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/acd85374-df66-410d-acfe-c0bf8ae793d6"
@@ -57,7 +57,7 @@
       "collector": "Friends of the River Teign",
       "tempC": 20.8,
       "salinityPpt": 32.8,
-      "rainfall24hMm": 79.7,
+      "rainfall24hMm": 0.1,
       "tide": null,
       "riverHubSiteId": "390d996f-0a61-4d76-bc1a-f23a615ff1de",
       "sourceUrl": "https://riverhub-teign.vercel.app/explore/sites/390d996f-0a61-4d76-bc1a-f23a615ff1de"
