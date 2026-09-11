@@ -1,6 +1,6 @@
 {
-  "latest_sample_date": "2026-08-24",
-  "latest_sample_date_text": "24 August 2026",
+  "latest_sample_date": "2026-09-03",
+  "latest_sample_date_text": "3 September 2026",
   "source": "Environment Agency",
   "results": [
     {
@@ -38,10 +38,15 @@
     },
     {
       "location": "Teignmouth Back Beach",
-      "ecoli": "<10",
-      "intestinal_enterococci": "<10",
-      "sample_date": "2026-08-24",
+      "ecoli": "90",
+      "intestinal_enterococci": "160",
+      "sample_date": "2026-09-03",
       "history": [
+        {
+          "sample_date": "2026-09-03",
+          "ecoli": "90",
+          "intestinal_enterococci": "160"
+        },
         {
           "sample_date": "2026-08-24",
           "ecoli": "<10",
@@ -60,11 +65,6 @@
         {
           "sample_date": "2026-08-03",
           "ecoli": "18",
-          "intestinal_enterococci": "<10"
-        },
-        {
-          "sample_date": "2026-07-28",
-          "ecoli": "<10",
           "intestinal_enterococci": "<10"
         }
       ]
