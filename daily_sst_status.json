@@ -1,13 +1,13 @@
 {
-  "latest_observation": "2026-09-20T11:30:00+01:00",
-  "current_sst": 18.2,
-  "report_date": "2026-09-19",
-  "daily_mean": 18.23,
-  "climatology_mean": 16.84,
-  "anomaly": 1.39,
-  "zscore": 1.84,
-  "historical_min": 15.66,
+  "latest_observation": "2026-09-21T13:00:00+01:00",
+  "current_sst": 18.8,
+  "report_date": "2026-09-20",
+  "daily_mean": 18.34,
+  "climatology_mean": 16.78,
+  "anomaly": 1.56,
+  "zscore": 2.05,
+  "historical_min": 15.64,
   "historical_max": 17.97,
   "percentile": ">100th",
-  "status": "WARM"
+  "status": "VERY WARM"
 }
