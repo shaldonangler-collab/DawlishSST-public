@@ -1,13 +1,13 @@
 {
-  "latest_observation": "2026-10-22T12:00:00+01:00",
-  "current_sst": 16.3,
-  "report_date": "2026-10-21",
-  "daily_mean": 16.0,
-  "climatology_mean": 14.83,
-  "anomaly": 1.17,
-  "zscore": 2.32,
-  "historical_min": 14.04,
+  "latest_observation": "2026-10-23T12:00:00+01:00",
+  "current_sst": 16.1,
+  "report_date": "2026-10-22",
+  "daily_mean": 16.12,
+  "climatology_mean": 14.77,
+  "anomaly": 1.36,
+  "zscore": 2.88,
+  "historical_min": 13.73,
   "historical_max": 16.02,
-  "percentile": ">90th",
+  "percentile": ">100th",
   "status": "VERY WARM"
 }
