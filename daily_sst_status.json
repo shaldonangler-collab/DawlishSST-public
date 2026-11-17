@@ -1,13 +1,13 @@
 {
-  "latest_observation": "2026-11-16T15:00:00+00:00",
-  "current_sst": 12.7,
-  "report_date": "2026-11-15",
-  "daily_mean": 12.33,
-  "climatology_mean": 13.08,
-  "anomaly": -0.74,
-  "zscore": -1.21,
-  "historical_min": 11.64,
+  "latest_observation": "2026-11-17T15:00:00+00:00",
+  "current_sst": 12.5,
+  "report_date": "2026-11-16",
+  "daily_mean": 12.45,
+  "climatology_mean": 13.0,
+  "anomaly": -0.55,
+  "zscore": -0.88,
+  "historical_min": 11.54,
   "historical_max": 14.16,
   "percentile": "10th\u201390th",
-  "status": "COLD"
+  "status": "NEAR NORMAL"
 }
